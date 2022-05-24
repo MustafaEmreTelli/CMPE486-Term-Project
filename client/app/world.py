@@ -704,6 +704,7 @@ class World(object):
             world.apply_settings(new_settings)
 
             town_map = world.get_map()
+            print(town_map)
             return (world, town_map)
 
         except RuntimeError as ex:
